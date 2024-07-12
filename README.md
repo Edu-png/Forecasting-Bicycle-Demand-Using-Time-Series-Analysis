@@ -1,5 +1,7 @@
 # Forecasting Bicycle Demand Using Time Series Analysis and prediction 🚲🚲
 
+![CAPAS - PROJETOS](https://github.com/user-attachments/assets/75c5fd93-1c7b-48a8-a60e-f623160b54eb)
+
 ## Sumário:
 - [Resumo](#resumo)
 - [Introdução](#introdução)
