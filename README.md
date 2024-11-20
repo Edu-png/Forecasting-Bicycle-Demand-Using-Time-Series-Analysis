@@ -19,6 +19,51 @@
 
 ## 📋 Sumário
 
+## 📋 Sumário
+
+1. [Resumo](#📋-resumo)  
+2. [Introdução ao Projeto](#🌟-introdução-ao-projeto---previsão-da-demanda-por-bicicletas)  
+3. [Objetivos do Projeto](#🎯-objetivos-do-projeto)  
+4. [Pipeline do Projeto](#🛠️-pipeline-do-projeto---previsão-da-demanda-por-bicicletas)  
+   - [Coleta e Importação dos Dados](#1-coleta-e-importação-dos-dados)  
+   - [Análise Exploratória de Dados (EDA)](#2-análise-exploratória-de-dados-eda)  
+   - [Pré-processamento dos Dados](#3-pré-processamento-dos-dados)  
+   - [Análise de Séries Temporais](#4-análise-de-séries-temporais)  
+   - [Modelagem Preditiva](#5-modelagem-preditiva)  
+   - [Avaliação dos Modelos](#6-avaliação-dos-modelos)  
+   - [Interpretação e Visualização dos Resultados](#7-interpretação-e-visualização-dos-resultados)  
+   - [Aplicações e Próximos Passos](#8-aplicações-e-próximos-passos)  
+5. [Metodologia](#🧪-metodologia)  
+   - [Coleta de Dados](#📂-coleta-de-dados)  
+   - [Pré-processamento dos Dados](#🧹-pré-processamento-dos-dados)  
+   - [Análise Exploratória de Dados (EDA)](#📊-análise-exploratória-de-dados-eda)  
+   - [Modelagem Preditiva](#📈-modelagem-preditiva)  
+   - [Avaliação e Interpretação dos Resultados](#📉-avaliação-e-interpretação-dos-resultados)  
+6. [Resultados](#📊-resultados)  
+   - [Gráficos](#gráficos)  
+     - [Gráfico 1 - Bicicletas alugadas por hora no final de semana](#gráfico-1---bicicletas-alugadas-por-hora-no-final-de-semana)  
+     - [Gráfico 2 - Número de aluguéis de bicicletas por data](#gráfico-2---número-de-aluguéis-de-bicicletas-por-data)  
+     - [Gráfico 3 - Distribuição das variáveis meteorológicas](#gráfico-3---distribuição-das-variáveis-meteorológicas)  
+     - [Gráfico 4 - Relação entre contagem de aluguéis e variáveis meteorológicas](#gráfico-4---relação-entre-contagem-de-aluguéis-e-variáveis-meteorológicas)  
+     - [Gráfico 5 - Matriz de correlação](#gráfico-5---matriz-de-correlação)  
+     - [Gráfico 6 - Aluguel de bicicletas em dias normais e feriados](#gráfico-6---aluguel-de-bicicletas-em-dias-normais-e-feriados)  
+     - [Gráfico 7 - Aluguel de bicicletas em dias de semana e finais de semana](#gráfico-7---aluguel-de-bicicletas-em-dias-de-semana-e-finais-de-semana)  
+     - [Gráfico 8 - Aluguel de bicicletas em diferentes condições climáticas](#gráfico-8---aluguel-de-bicicletas-em-diferentes-condições-climáticas)  
+     - [Gráfico 9 - Bicicletas alugadas por hora](#gráfico-9---bicicletas-alugadas-por-hora)  
+     - [Gráfico 10 - Bicicletas alugadas por hora no final de semana](#gráfico-10---bicicletas-alugadas-por-hora-no-final-de-semana)  
+     - [Gráfico 11 - Número de aluguéis de bicicletas por data](#gráfico-11---número-de-aluguéis-de-bicicletas-por-data)  
+     - [Gráfico 12 - Número de Aluguéis de Bicicletas por Mês](#gráfico-12---número-de-aluguéis-de-bicicletas-por-mês)  
+     - [Gráfico 13 - Média de Aluguel Diário de Bicicletas por Mês](#gráfico-13---média-de-aluguel-diário-de-bicicletas-por-mês)  
+     - [Gráfico 14 - Comparação entre Dados Reais e Ajustes do Modelo](#gráfico-14---comparação-entre-dados-reais-e-ajustes-do-modelo)  
+     - [Gráfico 15 - Tendências de longo prazo e padrões sazonais](#gráfico-15---tendências-de-longo-prazo-e-padrões-sazonais)  
+     - [Gráfico 16 - Previsão de série temporal com Prophet](#gráfico-16---previsão-de-série-temporal-com-prophet)  
+     - [Gráfico 17 - Previsão de longo prazo com Prophet](#gráfico-17---previsão-de-longo-prazo-com-prophet)  
+     - [Gráfico 18 - Previsão com Redes Neurais (RNN)](#gráfico-18---previsão-com-redes-neurais-rnn)  
+     - [Gráfico 19 - Previsão com Intervalos de Confiança](#gráfico-19---previsão-com-intervalos-de-confiança)  
+7. [Conclusões Gerais](#conclusões-gerais)  
+8. [Agradecimentos](#👏-agradecimentos)  
+9. [Contato](#📞-contato)  
+
 ## 📋 Resumo 
 O objetivo principal deste projeto é entender os fatores que influenciam a demanda por bicicletas alugadas e desenvolver modelos preditivos para estimar a demanda futura, auxiliando na tomada de decisões estratégicas. O dataset utilizado inclui variáveis como:
 
